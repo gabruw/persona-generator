@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+}
+
+.segment {
+    max-width: 500px;
+    margin: auto !important;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}

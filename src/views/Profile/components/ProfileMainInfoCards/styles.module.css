@@ -1,0 +1,13 @@
+.grid {
+    width: 100% !important;
+    margin-bottom: 5px !important;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.row {
+    background-color: #f9f9f9;
+}

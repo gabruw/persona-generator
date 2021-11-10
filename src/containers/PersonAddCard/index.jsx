@@ -1,7 +1,8 @@
 //#region Imports
 
+import CircularProgress from 'components/CircularProgress';
 import React, { useCallback } from 'react';
-import { Card, Icon, Loader } from 'semantic-ui-react';
+import { Card, Icon } from 'semantic-ui-react';
 import usePersonService from 'services/person/usePersonService';
 import usePersonContext from 'storages/person/context';
 import personFormat from 'utils/formatters/person';
@@ -30,7 +31,7 @@ const PersonAddCard = () => {
             <Card.Content className={styles.cardContent}>
                 <div className={styles.iconContainer} onClick={() => !requestState.isLoading && fetchNewPerson()}>
                     {requestState.isLoading ? (
-                        <Loader className={styles.loader} inline='centered' size='large' active />
+                        <CircularProgress />
                     ) : (
                         <Icon className={styles.icon} name='plus' size='huge' />
                     )}

@@ -16,8 +16,8 @@ const PersonCardList = () => {
         <Grid className={styles.grid} centered>
             <Grid.Row columns={6}>
                 {people.map((person, index) => (
-                    <Grid.Column className={styles.column}>
-                        <PersonCard key={index} person={person} />
+                    <Grid.Column key={index} className={styles.column}>
+                        <PersonCard person={person} />
                     </Grid.Column>
                 ))}
 
