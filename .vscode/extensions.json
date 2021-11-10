@@ -1,0 +1,26 @@
+{
+    "recommendations": [
+        "eamodio.gitlens",
+        "rintoj.json-organizer",
+        "esbenp.prettier-vscode",
+        "wix.vscode-import-cost",
+        "donjayamanne.githistory",
+        "naumovs.color-highlight",
+        "PKief.material-icon-theme",
+        "EditorConfig.editorconfig",
+        "xabikos.javascriptsnippets",
+        "aaron-bond.better-comments",
+        "clinyong.vscode-css-modules",
+        "richie5um2.vscode-sort-json",
+        "sonarsource.sonarlint-vscode",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "DavidAnson.vscode-markdownlint",
+        "dsznajder.es7-react-js-snippets",
+        "adam-bender.commit-message-editor",
+        "CoenraadS.bracket-pair-colorizer-2",
+        "christian-kohler.path-intellisense",
+        "nucllear.vscode-extension-auto-import",
+        "ms-vscode.typescript-javascript-grammar",
+    ]
+}
