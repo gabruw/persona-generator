@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    padding: 30px !important;
+    justify-content: flex-start;
+}
+
+.column {
+    margin: 10px 5px !important;
+}
