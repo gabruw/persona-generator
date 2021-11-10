@@ -1,6 +1,7 @@
 //#region Imports
 
-import React from 'react';
+import ScreenLoader from 'components/ScreenLoader';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -9,7 +10,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <Suspense fallback={<ScreenLoader />}>
+            <App />
+        </Suspense>
     </React.StrictMode>,
     document.getElementById('root')
 );
