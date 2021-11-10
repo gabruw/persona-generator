@@ -3,10 +3,10 @@
 import 'assets/styles/global.css';
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import Person from 'views/Person';
+import Router from './router';
 
 //#endregion
 
-const App = () => <Person />;
+const App = () => <Router />;
 
 export default App;
