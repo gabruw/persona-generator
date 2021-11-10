@@ -1,0 +1,15 @@
+.card {
+    margin: 5px;
+    height: 350px;
+}
+
+.image {
+    width: 230px;
+    height: 230px;
+}
+
+.header {
+    align-items: center;
+    display: flex !important;
+    justify-content: space-between;
+}
