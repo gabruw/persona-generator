@@ -5,7 +5,7 @@ import { Card, Icon, Loader } from 'semantic-ui-react';
 import usePersonService from 'services/person/usePersonService';
 import usePersonContext from 'storages/person/context';
 import personFormat from 'utils/formatters/person';
-import useAvatar from 'utils/hooks/useCreateAvatar';
+import useAvatar from 'utils/hooks/useAvatar';
 import styles from './styles.module.css';
 
 //#endregion
