@@ -1,0 +1,43 @@
+.card {
+    margin: 5px;
+    height: 350px;
+    box-shadow: none !important;
+    border-style: dashed !important;
+    border-color: #d2e0ec !important;
+    background-color: transparent !important;
+}
+
+.cardContent {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconContainer {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaf1fe;
+}
+
+.loader:after {
+    border-color: #266af6 transparent transparent !important;
+}
+
+.icon {
+    color: #266af6;
+}
+
+.text {
+    font-size: 18px;
+    color: #4d616e;
+    font-weight: bold;
+}
